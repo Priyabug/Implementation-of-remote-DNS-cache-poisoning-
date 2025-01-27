@@ -9,14 +9,29 @@ The goal of this project is for students to experience the remote DNS cache pois
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
-- <b>Ununtu 20.04 VM</b>
+- <b>C++</b> 
+- <b>Visual Studio Code</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
-<embed src a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a> </embed>
-
+<section>
+        <h1>RDMA Memory Registration</h1>
+        <p>
+            Memory registration is a prerequisite for RDMA operations, as RDMA devices require memory to be registered to ensure direct access. This involves:
+        </p>
+        <ul>
+            <li>
+                <strong>Pinning Memory:</strong> Allocating and locking physical memory pages to prevent them from being swapped out by the operating system.
+            </li>
+            <li>
+                <strong>Generating Memory Keys:</strong> Associating registered memory regions with unique keys to facilitate access control during RDMA operations.
+            </li>
+            <li>
+                <strong>Avoiding Re-registration Overheads:</strong> Efficient systems implement techniques such as memory pooling or caching registered memory regions to avoid repetitive registration costs.
+            </li>
+        </ul>
+    </section>
 
