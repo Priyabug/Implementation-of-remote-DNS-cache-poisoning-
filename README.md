@@ -34,4 +34,21 @@ The goal of this project is for students to experience the remote DNS cache pois
             </li>
         </ul>
     </section>
+    <section>
+        <h1>Request Handling</h1>
+        <p>
+            Efficient request handling is crucial for leveraging RDMA's potential in real-time and large-scale data transfer. This includes:
+        </p>
+        <ul>
+            <li>
+                <strong>Work Queues (WQ):</strong> Managing RDMA operations through Send, Receive, and Completion Queues to process requests asynchronously.
+            </li>
+            <li>
+                <strong>Zero-Copy Transfers:</strong> Utilizing RDMA's ability to directly read from or write to remote memory, eliminating the need for intermediate data copies.
+            </li>
+            <li>
+                <strong>Flow Control and Synchronization:</strong> Coordinating RDMA requests to handle contention and ensure consistency between sender and receiver buffers.
+            </li>
+        </ul>
+    </section>
 
