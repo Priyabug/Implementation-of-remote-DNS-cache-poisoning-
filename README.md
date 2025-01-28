@@ -17,5 +17,10 @@ The goal of this project is for students to experience the remote DNS cache pois
 - <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
+- <b>DNS and how it works</b>
+- <b>DNS server setup<b>
+- <b>DNS cache poisoning attack<b>
+- <b>Spoofing DNS responses</b>
+- <b>Packet spoofing</b>
 <embed src a href="https://drive.google.com/file/d/1uCxoX4KH4VHQnJwIdMl1H1Zu7jlkE_vg/view" alt=""></a> </embed>
 
