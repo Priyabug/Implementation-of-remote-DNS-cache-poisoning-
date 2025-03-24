@@ -1,27 +1,28 @@
-<h1>Implementation of remote DNS cache poisoning</h1>
+# **Implementation of Remote DNS Cache Poisoning**
 
+## **Description**  
+The goal of this project is for students to experience the **remote DNS cache poisoning attack**, commonly known as the **Kaminsky DNS attack**.  
 
+The **Domain Name System (DNS)** functions as the Internet's directory service, converting domain names into IP addresses and vice versa. This process of DNS resolution typically occurs seamlessly in the background. However, **DNS Pharming attacks** can disrupt this resolution process, redirecting users to unintended, often malicious, destinations.  
 
-<h2>Description</h2>
-The goal of this project is for students to experience the remote DNS cache poisoning attack, commonly known as the Kaminsky DNS attack. The Domain Name System (DNS) functions as the Internet's directory service, converting domain names into IP addresses and vice versa. This process of DNS resolution typically occurs seamlessly in the background. However, DNS Pharming attacks can disrupt this resolution process, redirecting users to unintended, often malicious, destinations. This lab specifically examines the DNS Cache Poisoning attack, a particular method of DNS Pharming.
-<br />
+This lab specifically examines the **DNS Cache Poisoning attack**, a particular method of DNS Pharming.  
 
+---
 
-<h2>Languages and Utilities Used</h2>
+## **Languages and Utilities Used**  
+- 🐍 **Python**  
+- 🖥 **Ubuntu 20.04 VM**  
 
-- <b>Python</b> 
-- <b>Ubuntu 20.04 VM</b>
+---
 
-<h2>Environments Used </h2>
+## **Environments Used**  
+- 💻 **Windows 10 (21H2)**  
 
-- <b>Windows 10</b> (21H2)
+---
 
-<h2>Program walk-through:</h2>
-
-- <b>DNS and how it works</b>
-- <b>DNS server setup<b>
-- <b>DNS cache poisoning attack<b>
-- <b>Spoofing DNS responses</b>
-- <b>Packet spoofing</b>
-
-
+## **Program Walk-Through**  
+1. **DNS and How It Works**  
+2. **DNS Server Setup**  
+3. **DNS Cache Poisoning Attack**  
+4. **Spoofing DNS Responses**  
+5. **Packet Spoofing**  
